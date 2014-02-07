@@ -25,12 +25,6 @@
     }
   ],
   "main": "lib/nsq",
-  "scripts": {
-    "build": "coffee --bare --compile --output lib src/*.coffee",
-    "prepublish": "coffee --bare --compile --output lib src/*.coffee",
-    "postpublish": "rm -rf lib",
-    "test": "grunt test"
-  },
   "engines": {
     "node": ">= 0.10.0"
   },
